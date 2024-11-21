@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|c:\\users\\imran\\source\\repos\\userregistration\\userregistration\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|solutionrelative:userregistration\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|c:\\users\\imran\\source\\repos\\userregistration\\userregistration\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|solutionrelative:userregistration\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|c:\\users\\imran\\source\\repos\\userregistration\\userregistration\\wwwroot\\js\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|solutionrelative:userregistration\\wwwroot\\js\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Migrations\\20241121202206_sdsd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserRegistration\\Migrations\\20241121202206_sdsd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|c:\\users\\imran\\source\\repos\\userregistration\\userregistration\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|solutionrelative:userregistration\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imran\\Desktop\\User Registration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|c:\\users\\imran\\source\\repos\\userregistration\\userregistration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|solutionrelative:userregistration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|c:\\users\\imran\\source\\repos\\userregistration\\userregistration\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|solutionrelative:userregistration\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Migrations\\20241121194117_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserRegistration\\Migrations\\20241121194117_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|c:\\users\\imran\\source\\repos\\userregistration\\userregistration\\userregistration.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1682DC0B-F05A-4CC4-8BBA-5D311C530A0D}|UserRegistration\\UserRegistration.csproj|solutionrelative:userregistration\\userregistration.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imran\\Desktop\\User Registration\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imran\\Desktop\\User Registration\\UserRegistration.runtimeconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imran\\Desktop\\User Registration\\UserRegistration.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.js",
+              "DocumentMoniker": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\wwwroot\\js\\Users.js",
+              "RelativeDocumentMoniker": "UserRegistration\\wwwroot\\js\\Users.js",
+              "ToolTip": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\wwwroot\\js\\Users.js",
+              "RelativeToolTip": "UserRegistration\\wwwroot\\js\\Users.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-21T20:31:44.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Controllers\\UserManagementController.cs",
+              "RelativeDocumentMoniker": "UserRegistration\\Controllers\\UserManagementController.cs",
+              "ToolTip": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Controllers\\UserManagementController.cs",
+              "RelativeToolTip": "UserRegistration\\Controllers\\UserManagementController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:30:58.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241121202206_sdsd.cs",
+              "DocumentMoniker": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Migrations\\20241121202206_sdsd.cs",
+              "RelativeDocumentMoniker": "UserRegistration\\Migrations\\20241121202206_sdsd.cs",
+              "ToolTip": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Migrations\\20241121202206_sdsd.cs",
+              "RelativeToolTip": "UserRegistration\\Migrations\\20241121202206_sdsd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:22:06.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "UserRegistration\\Data\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "UserRegistration\\Data\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:21:32.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241121194117_new.cs",
+              "DocumentMoniker": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Migrations\\20241121194117_new.cs",
+              "RelativeDocumentMoniker": "UserRegistration\\Migrations\\20241121194117_new.cs",
+              "ToolTip": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Migrations\\20241121194117_new.cs",
+              "RelativeToolTip": "UserRegistration\\Migrations\\20241121194117_new.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T19:41:17.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "UserRegistration\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\appsettings.Development.json",
+              "RelativeToolTip": "UserRegistration\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T18:03:30.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Program.cs",
+              "RelativeDocumentMoniker": "UserRegistration\\Program.cs",
+              "ToolTip": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\Program.cs",
+              "RelativeToolTip": "UserRegistration\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T17:35:00.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\appsettings.json",
+              "RelativeDocumentMoniker": "UserRegistration\\appsettings.json",
+              "ToolTip": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\appsettings.json",
+              "RelativeToolTip": "UserRegistration\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T18:01:42.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRegistration.runtimeconfig.json",
+              "DocumentMoniker": "C:\\Users\\Imran\\Desktop\\User Registration\\UserRegistration.runtimeconfig.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\User Registration\\UserRegistration.runtimeconfig.json",
+              "ToolTip": "C:\\Users\\Imran\\Desktop\\User Registration\\UserRegistration.runtimeconfig.json",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\User Registration\\UserRegistration.runtimeconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T17:53:12.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRegistration.deps.json",
+              "DocumentMoniker": "C:\\Users\\Imran\\Desktop\\User Registration\\UserRegistration.deps.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\User Registration\\UserRegistration.deps.json",
+              "ToolTip": "C:\\Users\\Imran\\Desktop\\User Registration\\UserRegistration.deps.json",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\User Registration\\UserRegistration.deps.json",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T17:52:53.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Imran\\Desktop\\User Registration\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\User Registration\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Imran\\Desktop\\User Registration\\appsettings.Development.json",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\User Registration\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T17:52:16.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Imran\\Desktop\\User Registration\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\User Registration\\appsettings.json",
+              "ToolTip": "C:\\Users\\Imran\\Desktop\\User Registration\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\User Registration\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T17:52:10.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRegistration",
+              "DocumentMoniker": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\UserRegistration.csproj",
+              "RelativeDocumentMoniker": "UserRegistration\\UserRegistration.csproj",
+              "ToolTip": "C:\\Users\\Imran\\source\\repos\\UserRegistration\\UserRegistration\\UserRegistration.csproj",
+              "RelativeToolTip": "UserRegistration\\UserRegistration.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T17:31:05.361Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

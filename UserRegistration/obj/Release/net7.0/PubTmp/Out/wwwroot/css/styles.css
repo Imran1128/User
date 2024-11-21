@@ -1,0 +1,110 @@
+/* General Styling */
+html, body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+/* Hero Section */
+.hero-section {
+    width:100%;
+    position: relative;
+    background: url('https://source.unsplash.com/1600x900/?technology,network') center/cover no-repeat;
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+    .hero-content h1 {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-content a {
+        padding: 10px 20px;
+        background: #007bff;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+        .hero-content a:hover {
+            background: #0056b3;
+        }
+
+/* Cards Section */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+    .card img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+/* Footer */
+footer {
+    
+    width:100%;
+    flex-shrink: 0;
+    background: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+    footer a {
+        color: #007bff;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+.social-icons a {
+    margin: 0 10px;
+    color: #6c757d;
+    font-size: 1.5rem;
+}
+
+    .social-icons a:hover {
+        color: #007bff;
+    }
