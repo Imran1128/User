@@ -4,8 +4,7 @@
 
 function loadUserData() {
     dataTable = $('#myTable').DataTable({
-        "processing": true,
-        "serverSide": true,
+        ordering: false,
         "ajax": {
             "url": '/UserManagement/GetTableData',
             "method": "GET",
@@ -57,9 +56,14 @@ function loadUserData() {
 }
 
 function toggleSelectAll() {
+    // Get the state of the "Select All" checkbox
     var isChecked = $('#select-all').prop('checked');
-    $('#myTable tbody input[type="checkbox"]').prop('checked', isChecked);
+    // Apply the same state to all checkboxes in the table body
+    $('#myTable tbody input[type="checkbox"]').each(function () {
+        $(this).prop('checked', isChecked);
+    });
 }
+
 
 $('#deleteBtn').on('click', function () {
     let val = [];
@@ -108,9 +112,10 @@ $('#BlockBtn').on('click', function () {
         }
 
     });
+    dataTable.ajax.reload();
     setTimeout(function () {
         location.reload();
-    }, 1500);
+    }, 4000);
     /*datatype.ajax.reload();*/// Delay in milliseconds (e.g., 500ms)
 });
 
