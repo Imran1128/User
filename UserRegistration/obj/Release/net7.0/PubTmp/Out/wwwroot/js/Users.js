@@ -4,6 +4,8 @@
 
 function loadUserData() {
     dataTable = $('#myTable').DataTable({
+        "processing": true,
+        "serverSide": true,
         "ajax": {
             "url": '/UserManagement/GetTableData',
             "method": "GET",
@@ -79,25 +81,39 @@ $('#deleteBtn').on('click', function () {
     });
 });
 
+
 $('#BlockBtn').on('click', function () {
     let val = [];
 
+    // Collect selected checkbox values
     $('#myTable tbody :checkbox:checked').each(function (i) {
         val[i] = $(this).val();
     });
 
+    // Perform AJAX request
     $.ajax({
         type: 'POST',
         url: '/usermanagement/BlockUser',
         data: { 'email': val },
         success: function () {
+            // Reload the data table first
             dataTable.ajax.reload();
+
+            // Reload the page after a short delay
+            
         },
-        error: function () {
-            console.log('Error blocking users');
+        error: function (xhr, status, error) {
+            console.error("An error occurred:", error);
+            /*alert("Failed to block users. Please try again.");*/
         }
+
     });
+    setTimeout(function () {
+        location.reload();
+    }, 1500);
+    /*datatype.ajax.reload();*/// Delay in milliseconds (e.g., 500ms)
 });
+
 
 $('#UnBlockBtn').on('click', function () {
     let val = [];

@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Elfie.Serialization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using UserRegistration.Migrations;
 using UserRegistration.Models;
 
 namespace UserRegistration.Controllers
@@ -10,18 +12,19 @@ namespace UserRegistration.Controllers
     public class UserManagementController : Controller
     {
         private readonly UserManager<ApplicationUser> userManager;
+        private readonly SignInManager<ApplicationUser> signInManager;
 
-        public UserManagementController(UserManager<ApplicationUser> userManager)
+        public UserManagementController(UserManager<ApplicationUser> userManager,SignInManager<ApplicationUser> signInManager)
         {
             this.userManager = userManager;
+            this.signInManager = signInManager;
         }
         [HttpGet]
         public async Task<IActionResult> GetTableData()
         {
-            var currentUserId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            //var currentUserId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 
             var users = await userManager.Users
-                .Where(x => x.Id != currentUserId)
                 .OrderByDescending(x => x.LastLogin)
                 .ToListAsync();
 
@@ -35,6 +38,7 @@ namespace UserRegistration.Controllers
          
             return View();
         }
+        [HttpPost]
         public async Task<IActionResult> DeleteUser(string[] email)
         {
             if(email.Count()>0)
@@ -52,24 +56,43 @@ namespace UserRegistration.Controllers
             }
             return RedirectToAction("ManageUser");
         }
+        [HttpPost]
         public async Task<IActionResult> BlockUser(string[] email)
         {
-            if (email.Count() > 0)
+            if (email.Length > 0)
             {
                 foreach (var id in email)
                 {
-                    var user = await userManager.FindByEmailAsync(id);
-                    if (user != null && user.LockoutEnd == null)
+                    var user = await userManager.FindByEmailAsync(id); 
+                    if (user != null)
                     {
-                        user.LockoutEnd = DateTimeOffset.UtcNow.AddYears(100);
-                       await userManager.UpdateAsync(user);
+                        
+                        if (user.LockoutEnd == null || user.LockoutEnd <= DateTimeOffset.UtcNow)
+                        {
+                            user.LockoutEnd = DateTimeOffset.UtcNow.AddYears(100);
+                            
+                            await userManager.UpdateAsync(user);
+                            
+                        }
 
+
+                        var currentUserEmail = userManager.GetUserName(User);
+                        var currentUser = await userManager.FindByEmailAsync(currentUserEmail);
+                        if (currentUser != null && currentUser.LockoutEnd > DateTimeOffset.UtcNow)
+                        {
+                            await signInManager.SignOutAsync();
+                            
+                        }
 
                     }
                 }
             }
-            return View("ManageUser");
+            Response.Redirect(Request.Path);
+            return RedirectToAction("Index");
         }
+
+
+        [HttpPost]
         public async Task<IActionResult> UnBlockUser(string[] email)
         {
             if (email.Count() > 0)
